@@ -12,9 +12,6 @@ for rodada in range(1, total_de_tentativas + 1):
     maior = chute > numero_secreto
     menor = chute < numero_secreto
 
-
-    print(f"Você digitou {chute}.")
-
     if acertou:
         print(f"Você acertou")
         break
@@ -25,4 +22,4 @@ for rodada in range(1, total_de_tentativas + 1):
         if menor:
             print(f"Você errou, seu chute foi menor que o número secreto.")
 
-    print("Fim do jogo!!")
+print("Fim do jogo!!")

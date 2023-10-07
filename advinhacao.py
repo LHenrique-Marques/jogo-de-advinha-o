@@ -4,7 +4,7 @@ print("""
 -------------Bem-Vindo Ao jogo de Advinhação--------------
 **********************************************************
 """)
-numero_secreto = int(random.random() * 100) 
+numero_secreto = int(random.randrange(101)) 
 total_de_tentativas = 3
 
 for rodada in range(1, total_de_tentativas + 1):

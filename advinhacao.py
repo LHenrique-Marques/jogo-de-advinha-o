@@ -4,8 +4,8 @@ print("""
 -------------Bem-Vindo Ao jogo de Advinhação--------------
 **********************************************************
 """)
-numero_random = random.random() * 100
-numero_secreto = 33
+numero_random = int(random.random() * 100)
+numero_secreto = numero_random
 total_de_tentativas = 3
 
 for rodada in range(1, total_de_tentativas + 1):
@@ -29,4 +29,4 @@ for rodada in range(1, total_de_tentativas + 1):
         if menor:
             print(f"Você errou, seu chute foi menor que o número secreto.")
 
-print("Fim do jogo!!")
+print(f"Fim do jogo!!, o número era {numero_secreto}")

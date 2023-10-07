@@ -1,11 +1,10 @@
 import random
-
 print("""
 **********************************************************
 -------------Bem-Vindo Ao jogo de Advinhação--------------
 **********************************************************
 """)
-
+numero_random = random.random() * 100
 numero_secreto = 33
 total_de_tentativas = 3
 

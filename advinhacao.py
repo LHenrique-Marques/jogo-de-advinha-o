@@ -6,6 +6,7 @@ print("""
 """)
 numero_secreto = random.randrange(1,101)
 total_de_tentativas = 0
+pontos = 1000
 
 print("""
 Qual o nível de Dificuldade ? 

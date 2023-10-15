@@ -51,4 +51,7 @@ for rodada in range(1, total_de_tentativas + 1):
         pontos_perdidos = abs(numero_secreto - chute)
         pontos = pontos - pontos_perdidos
 
-print(f"Fim do jogo!!, o número era {numero_secreto}")
+        if (rodada == total_de_tentativas):
+            print(f"Você perdeu, o número secreto era {numero_secreto} e sua pontuação foi de {pontos} pontos.")
+
+print(f"Fim do jogo!!")
